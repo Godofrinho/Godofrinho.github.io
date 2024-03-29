@@ -961,7 +961,7 @@ button[aria-label="Send a gift"] {
 }
 .wordmark__5b8c9:after {
   filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
-  content: var(--corner-text);;
+  content: var(--corner-text);
 }
 
 .channelName-3KPsGw,
