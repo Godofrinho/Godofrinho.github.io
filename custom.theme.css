@@ -23,7 +23,8 @@
   --darkplus-bg2: #302f2f;
   --darkplus-sec: #9867C5;
   --darkplus-links: #935ac7;
-  --darkplus-home-icon: url(https://github.com/Godofrinho/Godofrinho.github.io/blob/main/image_2023-12-15_153941784.png);
+  --darkplus-home-icon: url();
+  --darkplus-favorite-icon: url();
   --watermark-filter-invert: 0%;
   --watermark-filter-sepia: 50%;
   --watermark-filter-saturate: 3000%;
@@ -371,6 +372,16 @@
 }
 .childWrapper_a6ce15 {
   background: var(--darkplus-home-icon) center/cover no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.ring__349e5 path {
+  fill: transparent;
+}
+
+.ring__349e5 {
+  background: var(--darkplus-favorite-icon) center/cover no-repeat;
   min-width: 50px;
   min-height: 50px;
 }
