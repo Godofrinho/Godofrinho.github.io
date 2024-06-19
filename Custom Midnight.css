@@ -17,8 +17,8 @@
 	/* accent colors */
 	--accent-1: hsl(347, 77%, 52%); /* links */
 	--accent-2: hsl(347, 77%, 52%); /* general unread/mention elements */
-	--accent-3: hsl(347, 77%, 52%); /* accent buttons */
-	--accent-4: hsl(195, 2%, 63%); /* accent buttons when hovered */
+	--accent-3: hsl(347, 87%, 53%); /* accent buttons */
+	--accent-4: hsl(347, 87%, 53%); /* accent buttons when hovered */
 	--accent-5: hsl(0, 0%, 100%); /* accent buttons when clicked */
 	--mention: ; /* mentions & mention messages */
 	--mention-hover: ; /* mentions & mention messages when hovered */
@@ -27,7 +27,7 @@
 	--text-0: hsl(0, 0%, 100%); /* text on colored elements */
 	--text-1: var(--text-2); /* other normally white text */
 	--text-2: hsl(0, 0%, 100%); /* headings and important text */
-	--text-3: hsl(0, 0%, 80%); /* normal text */
+	--text-3: hwb(0 85% 15%); /* normal text */
 	--text-4: hsl(347, 87%, 53%); /* icon buttons and channels */
 	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
@@ -1159,4 +1159,53 @@ html.theme-light,
 * {
 	scrollbar-color: unset !important;
 	scrollbar-width: unset !important;
+}
+
+.members_cbd271,
+.membersWrap_cbd271, .container_cbd271 {
+    min-width: 60px;
+    transition-duration: 500ms;
+    transition-property: box-shadow, min-width, width;
+    width: 60px;
+    z-index: 10;
+}
+
+.members_cbd271:hover,
+.membersWrap_cbd271:hover {
+    min-width: 240px;
+    width: 240px;
+}
+
+.membersWrap_cbd271 {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.membersWrap_cbd271:hover {
+    box-shadow: 0 0 20px 10px #00000044;
+}
+
+.membersGroup_cbd271 {
+    height: 0;
+    transition-duration: 500ms;
+    transition-property: height;
+}
+
+.members_cbd271:hover .membersGroup_cbd271 {
+    height: 40px;
+}
+
+/*.membersWrap_cbd271 {
+  min-width: unset;
+}
+.membersWrap_cbd271 .members_cbd271 {
+  max-width: 65px;
+  min-width: 65px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.membersWrap_cbd271 .members_cbd271:hover {
+  max-width: 240px;
+  min-width: 240px;
 }
