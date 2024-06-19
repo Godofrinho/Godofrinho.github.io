@@ -27,7 +27,8 @@
 	--text-0: white; /* text on colored elements */
 	--text-1: var(--text-2); /* other normally white text */
 	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
+	--text-3: hsl(220, 95%, 60%); /* normal text */
+	--text-extra: hsl(220, 15%, 60%);
 	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
 	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
@@ -1111,10 +1112,10 @@ html.theme-light,
 	--text-message-preview-low-sat: var(--primary-360);
 	--text-muted: var(--text-5);
 	--text-muted-on-default: red;
-	--text-normal: var(--text-3);
+	--text-normal: var(--text-extra);
 	--text-positive: var(--green-330);
-	--text-primary: var(--text-3);
-	--text-secondary: var(--text-3);
+	--text-primary: var(--text-extra);
+	--text-secondary: var(--text-extra);
 	--text-warning: var(--yellow-300);
 	--textbox-markdown-syntax: var(--primary-360);
 	--theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
