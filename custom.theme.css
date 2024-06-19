@@ -375,7 +375,20 @@
   min-width: 50px;
   min-height: 50px;
 }
-
+.childWrapper__760c6 > svg:not(.favoriteIcon__901fa) {
+	display: var(--darkplus-favorite-icon);
+}
+.childWrapper__760c6:has(> svg:not(.favoriteIcon__901fa))::before {
+	content: '';
+	display: var(--darkplus-favorite-icon);
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	background: var(--darkplus-sec);
+	-webkit-mask-image: var(--darkplus-favorite-icon);
+	-webkit-mask-size: 50px;
+	-webkit-mask-repeat: none;
+}
 .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
   color: var(--darkplus-links);
 }
