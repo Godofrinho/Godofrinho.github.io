@@ -34,6 +34,10 @@
   --darkplus-emoji-picker-color: 210deg;
 }
 
+.container_b92032::before {
+  background: var(--darkplus-bg2)
+}
+
 .bg_d4b6c5,
 .container_e40c16 {
   background-color: var(--darkplus-bg);
